@@ -1,0 +1,58 @@
+/* Login & Signup Forms Stylings */
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  input {
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 100%;
+  }
+
+  input:focus {
+    border: 2px solid orange;
+    outline: none;
+  }
+
+  .button {
+    padding: 10px 20px;
+    color: white;
+    background-color: green;
+    margin: 10px 0px;
+    border: none;
+    border-radius: 12px;
+  }
+
+  .mb-2 {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .icons {
+    font-size: 25px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icons i {
+    border: 1.5px solid black;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 10px 5px;
+    color: green;
+  }
+
+  #login-form a, #signup-form a {
+    color: green;
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+  #img{
+    width: 160px;
+    margin: 0 auto;
+  }
